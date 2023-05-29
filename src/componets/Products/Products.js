@@ -11,6 +11,11 @@ const Products = () => {
         .then(data => setProducts(data))
     }, [])
 
+
+    const handlerAddToBookmark = () =>{
+
+    }
+
     return (
         <div className='product-compo'>
             <div className='product-container'>
@@ -20,6 +25,7 @@ const Products = () => {
 
                 key= {product.id}
                 product = {product}
+                handlerAddToBookmark = {handlerAddToBookmark}
 
                 ></Blog>)
             }

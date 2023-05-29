@@ -16,3 +16,7 @@ nav a {
     color: black;
     margin-left: 48px;
 }
+
+a:hover {
+    color: bisque;
+}
