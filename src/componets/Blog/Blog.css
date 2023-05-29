@@ -1,0 +1,31 @@
+.blog-container {
+    border: 1px solid rgb(238, 232, 222);
+    border-radius: 12px;
+    background-color: whitesmoke;
+    padding: 16px;
+}
+
+.blog-img {
+    width: 845px;
+    height: 450px;
+    border-radius: 16px;
+}
+
+.user-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+
+
+.user-info img {
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+}
+
+.user-info {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
