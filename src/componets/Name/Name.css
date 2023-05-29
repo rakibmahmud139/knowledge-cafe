@@ -1,0 +1,7 @@
+.name-container {
+    position: static;
+    background-color: whitesmoke;
+    border-radius: 16px;
+    padding: 12px;
+    margin-bottom: 8px;
+}

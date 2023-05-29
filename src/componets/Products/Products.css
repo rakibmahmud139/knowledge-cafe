@@ -1,13 +1,17 @@
-.product-compo{
+.product-compo {
     display: grid;
     grid-template-columns: 4fr 1fr;
     gap: 8px;
     margin: 48px;
 }
 
-.product-compo h3{
+.product-compo h3 {
     background-color: whitesmoke;
     border-radius: 16px;
     padding: 12px;
 }
 
+.product-info {
+    position: sticky;
+    top: 0;
+}

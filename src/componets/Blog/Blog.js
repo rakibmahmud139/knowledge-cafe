@@ -24,7 +24,7 @@ const Blog = (props) => {
                 </div>
 
                 <div>
-                    <p>05 min read <span onClick={() => handlerAddToBookmark()}></span> <FontAwesomeIcon icon={faBookmark} /></p>
+                    <p>05 min read <span onClick={() => handlerAddToBookmark(props.product)}><FontAwesomeIcon icon={faBookmark} /></span> </p>
                 </div>
             </div>
 
